@@ -1,0 +1,104 @@
+body {
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Adamina", serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.history {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.box-history {
+    font-family: "Adamina", serif;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 700px;
+    height: 200px;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+#prod-1{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 172, 168);
+    border-radius: 8px;
+    width: 500px;
+    height: 20px;
+}
+
+.finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#btn-finish-purchase {
+    background-color: #2798AC;
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+    font-family: "Adamina", serif;
+    font-size: 20px;
+}
+
+.payments-methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+#check {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+

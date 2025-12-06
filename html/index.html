@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP Candy Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="/img/logo.png" alt="Logo: uma formiga segurando um doce" width="200px">
+
+        <div class="menu-btn" id="menu-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <main>
+        <section class="produtos">
+            <article class="produto">
+                <img src="/img/prod_bis.png" alt="1 unidade de um bis" width="200">
+                <h2>BIS</h2>
+                <strong>R$0,50</strong>
+                <div class="buttons">
+                    <img src="/img/adicionar.png" width="" height="40" alt="sinal de mais">
+                    <img src="/img/menos.png" width="" height="40" alt="sinal de menos">
+                </div>
+            </article>
+            <article class="produto">
+                <img src="/img/prod_cremosino-removebg-preview.png" alt="1 unidade de um bis" width="200">
+                <h2>CREMOSINO</h2>
+                <strong>R$2,00</strong>
+                <div class="buttons">
+                    <img src="/img/adicionar.png" width="" height="40" alt="sinal de mais">
+                    <img src="/img/menos.png" width="" height="40" alt="sinal de menos">
+                </div>
+            </article>
+            <article class="produto">
+                <img src="/img/prod_trufa-removebg-preview.png" alt="1 unidade de um bis" width="240">
+                <h2>TRUFA</h2>
+                <strong>R$3,00</strong>
+                <div class="buttons">
+                    <img src="/img/adicionar.png" width="" height="40" alt="sinal de mais">
+                    <img src="/img/menos.png" width="" height="40" alt="sinal de menos">
+                </div>
+            </article>
+        </section>
+        <section class="history">
+            <div class="box-history">
+                <h3>Carrinho</h3>
+                <div id="prod-1"></div>
+            </div>
+        </section>
+        <section class="payments-methods">
+            <div id="check">
+                <input type="checkbox" id="payment-pix" /> PIX
+            </div>
+            <div id="check">
+                <input type="checkbox" id="payment-money" /> DINHEIRO
+            </div>
+            <div id="check">
+                <input type="checkbox" id="payment-credit-card" /> CARTÃO DE CREDITO
+            </div>
+            <div id="check">
+                <input type="checkbox" id="payment-debit-card" /> CARTÃO DE DEBITO
+            </div>
+        </section>
+        <section class="finish">
+            <input type="button" id="btn-finish-purchase" value="Finalizar Compra">
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
