@@ -38,7 +38,7 @@ Este projeto utilizou recursos de terceiros e ferramentas de IA:
 ## 🔗 Como Acessar
 
 Você pode acessar o projeto rodando diretamente no seu navegador através deste link:
-👉 **[CLIQUE AQUI PARA ABRIR O SISTEMA](LINK_DO_GITHUB_PAGES_AQUI)**
+👉 **[CLIQUE AQUI PARA ABRIR O SISTEMA](https://jceasa.github.io/CandyShop/)**
 
 ---
 Desenvolvido por **[Júlio César]**
