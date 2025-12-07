@@ -24,37 +24,34 @@
         <section class="produtos">
             <article class="produto">
                 <img src="img/prod_bis.png" alt="1 unidade de um bis" width="200">
-                <h2>BIS</h2>
-                <strong>R$0,50</strong>
+                <h2 id="name">BIS</h2>
+                <strong data-preco="0.50">R$0,50</strong>
                 <div class="buttons">
-                    <img src="img/adicionar.png" width="" height="40" alt="sinal de mais">
-                    <img src="img/menos.png" width="" height="40" alt="sinal de menos">
+                    <img src="img/adicionar.png" onclick="adicionar(this)" width="" height="40" alt="sinal de mais">
+                    <p id="qtd">0</p>
+                    <img src="img/menos.png" onclick="diminuir(this)" width="" height="40" alt="sinal de menos">
                 </div>
             </article>
             <article class="produto">
                 <img src="img/prod_cremosino-removebg-preview.png" alt="1 unidade de um bis" width="200">
                 <h2>CREMOSINO</h2>
-                <strong>R$2,00</strong>
+                <strong data-preco="2.00">R$2,00</strong>
                 <div class="buttons">
-                    <img src="img/adicionar.png" width="" height="40" alt="sinal de mais">
-                    <img src="img/menos.png" width="" height="40" alt="sinal de menos">
+                    <img src="img/adicionar.png" onclick="adicionar(this)" width="" height="40" alt="sinal de mais">
+                    <p id="qtd">0</p>
+                    <img src="img/menos.png" onclick="diminuir(this)" width="" height="40" alt="sinal de menos">
                 </div>
             </article>
             <article class="produto">
                 <img src="img/prod_trufa-removebg-preview.png" alt="1 unidade de um bis" width="240">
                 <h2>TRUFA</h2>
-                <strong>R$3,00</strong>
+                <strong data-preco="3.00">R$3,00</strong>
                 <div class="buttons">
-                    <img src="img/adicionar.png" width="" height="40" alt="sinal de mais">
-                    <img src="img/menos.png" width="" height="40" alt="sinal de menos">
+                    <img src="img/adicionar.png" onclick="adicionar(this)" width="" height="40" alt="sinal de mais">
+                    <p id="qtd">0</p>
+                    <img src="img/menos.png" onclick="diminuir(this)" width="" height="40" alt="sinal de menos">
                 </div>
             </article>
-        </section>
-        <section class="history">
-            <div class="box-history">
-                <h3>Carrinho</h3>
-                <div id="prod-1"></div>
-            </div>
         </section>
         <section class="payments-methods">
             <div id="check">
@@ -70,14 +67,27 @@
                 <input type="checkbox" id="payment-debit-card" /> CARTÃO DE DEBITO
             </div>
         </section>
+        <section class="history">
+            <div class="box-history">
+                <h3 id="cash-register">Total : R$</h3>
+                <div id="prod-1"></div>
+            </div>
+        </section>
         <section class="finish">
-            <input type="button" id="btn-finish-purchase" value="Finalizar Compra">
+            <input type="button" onclick="salvarRelatorio()" id="btn-finish-purchase" value="Finalizar Compra">
         </section>
     </main>
     <footer>
-        <p>Ícones por <a href="https://www.flaticon.com/br/autores/iconsax" target="_blank"
-                style="color: #aaa;">Iconsax</a></p>
+        <div class="credits">
+            <p>Ícones por <a href="https://www.flaticon.com/br/autores/iconsax" target="_blank"
+                    style="color: #aaa;">Iconsax</a></p>
+            <p>Imagens dos produtos feitas com <strong><a href="https://gemini.google.com/app">Google
+                        Gemini</a></strong>
+            </p>
+            <p>Tratamento das imagens feita no site <a href="https://www.remove.bg/pt-br/upload">Remove BG</a></p>
+        </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
